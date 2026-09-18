@@ -1,6 +1,6 @@
 const int BUZZER = 13;
 
-// Precise Standard Piano Frequencies (in Hz)
+// Precise Standard Piano Frequencies 
 const int NOTE_C5 = 523; // C5
 const int NOTE_D5 = 587; // D5
 const int NOTE_E5 = 659; // E5
