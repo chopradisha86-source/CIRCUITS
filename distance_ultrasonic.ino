@@ -1,7 +1,7 @@
 /*
   Project 2: Ultrasonic Sensor Distance Measurement
   Description: Measures distance in centimeters using HC-SR04
-               and prints the output to the Serial Monitor.
+              and prints the output to the Serial Monitor.
 */
 
 const int trigPin = 9;  // HC-SR04 Trig pin connected to Digital Pin 9
