@@ -1,5 +1,5 @@
 // Pin Definitions
-const int IR_SENSOR_PIN = 2;  // OUT / DO pin connected to Digital Pin 2
+const int IR_SENSOR_PIN = 2;  // OUT DO pin connected to Digital Pin 2
 const int LED_PIN = 13;       // LED Positive connected to Digital Pin 13
 
 void setup() {
