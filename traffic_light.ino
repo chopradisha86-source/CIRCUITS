@@ -20,7 +20,7 @@ void setup() {
   pinMode(GREEN_LED, OUTPUT);
 }
 
-// Software current-limiting function using rapid pulsing
+// Software current limiting function using rapid pulsing
 void safeLight(int pin, int durationMs) {
   unsigned long startTime = millis();
   while (millis() - startTime < (unsigned long)durationMs) {
