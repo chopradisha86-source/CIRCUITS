@@ -15,7 +15,7 @@ void loop() {
   // Read digital signal from IR sensor module
   int sensorValue = digitalRead(IR_SENSOR_PIN);
 
-  // IR modules output LOW (0) when an obstacle/threshold is detected
+  // IR modules output LOW when an obstacle/threshold is detected
   if (sensorValue == LOW) {
     digitalWrite(LED_PIN, HIGH);  // Turn ON LED on Pin 13
     Serial.println("Obstacle Detected -> LED ON");
