@@ -1,6 +1,6 @@
 #include <DHT.h>
 
-// A0 pin ko digital pin 14 ki tarah access kiya jata hai,
+// A0 pin ko digital pin 14 ki tarah access kiya jata hai
 // lekin hum direct A0 bhi likh sakte hain.
 #define DHTPIN A0     
 #define DHTTYPE DHT11
