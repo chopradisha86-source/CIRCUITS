@@ -34,7 +34,7 @@ void loop() {
 
     if (note > 0) {
       tone(BUZZER, note);
-      delay(200);     // Reduced slightly for a more responsive piano feel
+      delay(200);     // Reduced slightly for more responsive piano feel
       noTone(BUZZER); // Silence between notes
     }
   }
