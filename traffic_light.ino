@@ -6,7 +6,7 @@
   - Red LED (+)    --> Digital Pin 2
   - Yellow LED (+) --> Digital Pin 3
   - Green LED (+)  --> Digital Pin 4
-  - All LEDs (-)   --> Breadboard Blue (-) Rail --> Arduino GND
+  - All LEDs (-)   --> Breadboard Blue Rail --> Arduino GND
   ===================================================================
 */
 
